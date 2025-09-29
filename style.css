@@ -1,0 +1,12 @@
+body {
+  font-size: 30px;
+  margin: 0;
+  display: flex;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: rgb(255, 255, 255);
+  background-color: rgb(40, 40, 40);
+  -webkit-app-region: drag;
+}
