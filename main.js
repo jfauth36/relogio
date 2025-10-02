@@ -5,7 +5,10 @@ const createWindow = () => {
     width: 150,
     height: 100,
     alwaysOnTop: true,
+    transparent: true,
+    hasShadow: false,
     resizable: false,
+    backgroundColor: "#00000000",
     webPreferences: {
       nodeIntegration: true,
     },
